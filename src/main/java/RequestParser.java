@@ -1,14 +1,15 @@
-public class URLParser {
-    public String extractFileName(String recievedURL) {
+public class RequestParser {
+    public String extractFilePath(String recievedURL) {
+        String filePath="";
         String[] split = recievedURL.split(" ");
-        return split[1].substring(1);
+        filePath = split[1];
+        return filePath;
     }
 
     public String extractTypeOfFile(String fileName) {
         String fileType = "";
         String[] splits = fileName.split("\\.");
         fileType = splits[1];
-        //System.out.println(fileType);
         return fileType;
     }
 }
