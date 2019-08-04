@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ServerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-04T07:07:54" hostname="RENTLAPT0041" time="0.108">
+  <properties/>
+  <testcase name="TestServer" classname="ServerTests" time="0.041"/>
+  <testcase name="TestExtractFilePathFromRecievedHeaderRequest" classname="ServerTests" time="0.008"/>
+  <testcase name="TestFileExtension" classname="ServerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Aug 04, 2019 12:37:54 PM Server startServer
+INFO: Server Started
+waiting for clients
+Aug 04, 2019 12:37:54 PM Server stopServer
+INFO: Server Stopped
+Aug 04, 2019 12:37:54 PM Server startServer
+INFO: Server Started
+waiting for clients
+Aug 04, 2019 12:37:54 PM Server stopServer
+INFO: Server Stopped
+Aug 04, 2019 12:37:54 PM Server startServer
+INFO: Server Started
+waiting for clients
+Aug 04, 2019 12:37:54 PM Server stopServer
+INFO: Server Stopped
+]]></system-err>
+</testsuite>
