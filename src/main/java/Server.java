@@ -15,7 +15,7 @@ public class Server {
             serverSuccesfullyStarted=true;
             running = true;
             LogHandler.logger.log(Level.INFO,"Server Started\nwaiting for clients");
-            stopServer();//Stopping the server for running test cases
+            stopServer();//Stop the server for running test cases
 
            while(running){
                 Socket socket = server.accept();

@@ -17,7 +17,7 @@ public class ClientHandler implements Runnable {
     @Override
     public void run() {
         String recievedContent = request.recieveRequest(socket);
-        LogHandler.logger.log(Level.INFO,recievedContent);
+       // LogHandler.logger.log(Level.INFO,recievedContent);
         String filePath = requestParser.extractFilePath(recievedContent);
         File file = new File("Files/" + filePath);
         if (!file.exists()) {
