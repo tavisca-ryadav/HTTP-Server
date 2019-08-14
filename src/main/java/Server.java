@@ -33,9 +33,4 @@ public class Server {
         running = false;
         LogHandler.logger.log(Level.INFO,"Server Stopped");
     }
-
-    public static void main(String[] args){
-        Server server = new Server();
-        server.startServer(5000);
-    }
 }
